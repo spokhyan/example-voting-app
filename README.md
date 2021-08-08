@@ -8,7 +8,7 @@ Getting started
 
 Download [Docker Desktop](https://www.docker.com/products/docker-desktop) for Mac or Windows. [Docker Compose](https://docs.docker.com/compose) will be automatically installed. On Linux, make sure you have the latest version of [Compose](https://docs.docker.com/compose/install/). 
 
-## To solve docker postgres exit code 1 issue, run postgres with -e POSTGRES_HOST_AUTH_METHOD=trust or -e POSTGRES_PASSWORD=password env param, for example - 
+To solve docker postgres exit code 1 issue, run postgres with -e POSTGRES_HOST_AUTH_METHOD=trust or -e POSTGRES_PASSWORD=password env param, for example - 
 docker run -d --name=db -e POSTGRES_HOST_AUTH_METHOD=trust postgres:9.4
 
 ## Linux Containers
